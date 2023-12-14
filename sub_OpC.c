@@ -9,7 +9,7 @@
 void f_sub(stack_t **stack, unsigned int line_number)
 {
     stack_t *head_copy = *stack;
-    int length = check_length(head_copy), result;
+    int length = check_Len(head_copy), result;
 
     if (length < 2)
     {

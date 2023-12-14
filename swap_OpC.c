@@ -9,7 +9,7 @@ void f_swap(stack_t **stack, unsigned int line_number)
 {
 
     stack_t *head_copy = *stack;
-    int length = check_length(head_copy), auxilary;
+    int length = check_Len(head_copy), auxilary;
 
     if (length < 2)
     {

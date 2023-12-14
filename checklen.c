@@ -1,18 +1,18 @@
 #include "monty.h"
 
 /**
- * check_length-> Checks the length of a stack
+ * check_Len-> Checks the len of a stack
  * @stack: The stack to be checked
  */
 
-int check_length(stack_t *stack)
+int check_Len(stack_t *stack)
 {
-    int length = 0;
+    int len = 0;
 
     while (stack)
     {
         stack = stack->next;
-        length++;
+        len++;
     }
-    return (length);
+    return (len);
 }

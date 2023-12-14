@@ -1,16 +1,16 @@
 #include "monty.h"
 /**
- * f_add -> Adds the top two int numbers on the stack and stores
+ * FAdd -> Adds the top two int numbers on the stack and stores
  * their value in the second number of the stack which now becomes the first
  * @stack: The stack
  * @line_number: The line number
  */
-void f_add(stack_t **stack, unsigned int line_number)
+void FAdd(stack_t **stack, unsigned int line_number)
 {
     stack_t *head_copy = *stack;
-    int length = check_length(head_copy), result;
+    int len = check_Len(head_copy), result;
 
-    if (length < 2)
+    if (len < 2)
     {
         fprintf(stderr, "L%d: can't add, stack too short\n", line_number);
         fclose(bus.file);

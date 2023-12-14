@@ -32,7 +32,7 @@ void f_push(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE); }
 	n = atoi(bus.arg);
 	if (bus.lifi == 0)
-		addnode(stack, n);
+		AddNode(stack, n);
 	else
-		addqueue(stack, n);
+		AddQueue(stack, n);
 }

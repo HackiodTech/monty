@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_div - divides top of two elements of the stack.
+ * f_divide_ - divides top of two elements of the stack.
  * @stack: the stack head
  * @line_number: line_number
  * Return: void
 */
-void f_div(stack_t **stack, unsigned int line_number)
+void f_divide_(stack_t **stack, unsigned int line_number)
 {
 	stack_t *h;
 	int length = 0, aux;
